@@ -127,7 +127,6 @@ long long int encryption_using_public_key(int m,int e,int n){
 	// 	printf("%d",ans);
 	// }
 	// printf("\n ANS ANS ANS %d\n",ans);
-	// printf("are ytou trippping");
 	int ans=m;
 	long long int final=1;
 	for(int i=0;i<e;i++){
