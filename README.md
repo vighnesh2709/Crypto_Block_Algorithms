@@ -24,5 +24,8 @@ This program implements basic RSA encryption and decryption in C. It demonstrate
 ## Compilation
 
 ```bash
-gcc RSA.c -o rsa
-
+gcc RSA.c
+```
+```bash
+gcc RSA.c
+```
