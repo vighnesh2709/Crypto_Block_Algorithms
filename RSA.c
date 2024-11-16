@@ -114,6 +114,9 @@ int decryption_exponent(int encryption_exponent, int eulers_totient)
 	return mod_inverse(encryption_exponent, eulers_totient);
 }
 
+//Note: Encryption and decryption functionality is still incomplete. Work is pending on these parts.
+
+
 long long int encryption_using_public_key(int m,int e,int n){
 	//c=m^e mod n
 	// printf("Hello world");
